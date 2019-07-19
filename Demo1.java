@@ -3,19 +3,21 @@ class Demo1
 	public static void main(String[] args) 
 	{
 		
-		System.out.println("Hello World!");
+		System.out.println("Activity Starts");
 		Demo1 obj1=new Demo1();
+			//one object is enough for any number of methods 
 		obj1.walk();
-		// Methods obj2=new Methods(); 1 obj is enough
-		obj2.climb();
+		System.out.println("Take some rest");
+		obj1.climb();
+		System.out.println("Activity Ends");
 
 	}
 	public void walk()
 	{
-		System.out.println("Walk to the steps")
+		System.out.println("Walk to the hills");
 	}
 	public void climb()
 	{
-		System.out.
+		System.out.println("Climb to the peak");
 	}
 }
