@@ -46,7 +46,7 @@ class InfoDisplay
 	{	
 		if (studentName==null)
 		{
-			System.out.println("***Batch code is compulsory***");
+			System.out.println("***StudentName is compulsory***");
 		}
 		else
 		{
@@ -68,7 +68,7 @@ class InfoDisplay
 		}
 		else
 		{
-			System.out.println("Company name is: "+companyName_1);
+			System.out.println("Company name is: "+this.companyName_1);
 		}
 
 	
@@ -77,7 +77,7 @@ class InfoDisplay
 		}
 		else
 		{
-			System.out.println("Companyname is : "+companyName_2);	
+			System.out.println("Companyname is : "+this.companyName_2);	
 		} 
 
 		if (companyName_3 == null)
@@ -85,7 +85,7 @@ class InfoDisplay
 		}
 		else
 		{
-			System.out.println("Companyname is : "+companyName_3);	
+			System.out.println("Companyname is : "+this.companyName_3);	
 		}
 
 		if (batchCode==null)
@@ -94,15 +94,11 @@ class InfoDisplay
 		}
 		else
 		{
-			System.out.println("Batch Code is: "+batchCode);
+			System.out.println("Batch Code is: "+this.batchCode);
 		}
 		
 	}
 
-}
-
-class  JspidersTodayReq
-{
 	public static void main(String[] args) 
 	{
 		System.out.println("Main starts");
@@ -135,3 +131,4 @@ class  JspidersTodayReq
 		System.out.println("Main ends");
 	}
 }
+
